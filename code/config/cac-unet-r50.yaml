@@ -1,0 +1,34 @@
+MODEL:
+  BACKBONE:
+    TYPE: "R-50-C1-C5"
+    PRETRAINED: True
+    WITH_IBN: True  
+  DECODER:
+    TYPE: "UnetDecoderV2-H"
+  PREDICTOR:
+    TYPE: "BasePredictor"
+    NUM_CLASSES: 2
+    LOSS: "diceloss"
+TRAIN:
+  EPOCHES: 20
+  OPTIMIZER: "Ranger"
+  LR: 0.001
+  BATCHSIZE: 8
+  ITER_REPORT: 100
+  # SCHEDULER: "CosineAnnealingLR_with_Restart"
+  # COSINEANNEALINGLR:
+  #   T_MAX: 10
+  #   T_MULT: 1.0
+  SAVE_ALL: True
+DATASET:
+  TYPE: "DigestDataset"
+  ANNS: "../datalist/train_010.json"
+  IMAGEDIR: "../data/pos-patches"
+  USE_AUG: True
+  RESIZE_SIZE: [512, 512]
+  VAL:
+    TYPE: "DigestDataset"
+    ANNS: "../datalist/val_010.json"
+    IMAGEDIR: "../data/pos-patches"
+    RESIZE_SIZE: [512, 512]
+WORK_DIR: "log/cac-unet-r50"
