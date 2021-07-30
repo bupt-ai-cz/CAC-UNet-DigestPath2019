@@ -1,0 +1,9 @@
+albumentations
+opencv-python
+opencv_python_headless
+numpy
+yacs
+Pillow
+cython
+tqdm
+PyYAML
