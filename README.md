@@ -1,4 +1,4 @@
-# Multi-level-colonoscopy-malignant-tissue-detection-with-adversarial-CAC-UNet [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Codes%20and%20Data%20for%20Our%20Paper:%20"Multi-level%20colonoscopy%20malignant%20tissue%20detection%20with%20adversarial%20CAC-UNet"%20&url=https://github.com/bupt-ai-cz/CAC-UNet)
+# Multi-level-colonoscopy-malignant-tissue-detection-with-adversarial-CAC-UNet [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Codes%20and%20Data%20for%20Our%20Paper:%20"Multi-level%20colonoscopy%20malignant%20tissue%20detection%20with%20adversarial%20CAC-UNet"%20&url=https://github.com/bupt-ai-cz/CAC-UNet-DigestPath2019)
 Implementation detail for our paper ["Multi-level colonoscopy malignant tissue detection with adversarial CAC-UNet"](https://www.researchgate.net/publication/348780589_Multi-level_colonoscopy_malignant_tissue_detection_with_adversarial_CAC-UNet#fullTextFileContent)
 
 DigestPath 2019
