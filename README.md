@@ -78,7 +78,7 @@ About the multi-level adversarial segmentation part, you can read our [ICASSP](h
   organization={IEEE}
 }
 ```
-The challenge paper should be also cited:
+The challenge paper [DigestPath: a Benchmark Dataset with Challenge Review for the Pathological Detection and Segmentation of Digestive-System]() should be also cited:
 ```
 @article{da2022digestpath,
   title={DigestPath: A benchmark dataset with challenge review for the pathological detection and segmentation of digestive-system},
