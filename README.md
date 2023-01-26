@@ -78,7 +78,18 @@ About the multi-level adversarial segmentation part, you can read our [ICASSP](h
   organization={IEEE}
 }
 ```
-
+The challenge paper should be also cited:
+```
+@article{da2022digestpath,
+  title={DigestPath: A benchmark dataset with challenge review for the pathological detection and segmentation of digestive-system},
+  author={Da, Qian and Huang, Xiaodi and Li, Zhongyu and Zuo, Yanfei and Zhang, Chenbin and Liu, Jingxin and Chen, Wen and Li, Jiahui and Xu, Dou and Hu, Zhiqiang and others},
+  journal={Medical Image Analysis},
+  volume={80},
+  pages={102485},
+  year={2022},
+  publisher={Elsevier}
+}
+```
 
 ## Author
 Ke Mei, Ting Peng, Chuang Zhu
